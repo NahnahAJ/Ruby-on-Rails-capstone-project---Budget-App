@@ -121,13 +121,13 @@ $ cd budgetApp
 
 ### Deployment
 
-- I will deploy the project with [render](render.com), after which you can access the live version of the project in the Live Demo section.
+- I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Nahnah Ahjuwah**
 
