@@ -170,10 +170,10 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse.
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I would like to thank Microverse for these [Design Guidelines](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+- Original design idea by [Gregoire Vella on Behance.](https://www.behance.net/gregoirevella)
+- Hat tip to anyone whose code was used 🤝
+- Inspiration 🔥
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
