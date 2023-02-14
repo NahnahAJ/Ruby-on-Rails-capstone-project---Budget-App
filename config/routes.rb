@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :transaract_groups
   resources :groups
   resources :transaracts
