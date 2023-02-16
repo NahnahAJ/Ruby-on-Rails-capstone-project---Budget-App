@@ -1,1 +1,11 @@
+<button><%=link_to "Back", groups_path %></button>
 <h1> Welcome to the transaracts index page</h1>
+
+<h3>Total Amount for Category: <%= @total_transactions %></h3>
+
+<% @transaracts.each do |transaract| %>
+  <h1><%= transaract.transaract.name %></h1>
+  <p><%= transaract.transaract.amount %></p>
+  <% end %>
+  
+  <button><%= link_to "Add Transaract", new_group_transaract_path %></button>
