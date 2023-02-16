@@ -1,4 +1,4 @@
-# Home Page Categories Page 
+# Home Page Categories Page
 # When the user logs in, they are presented with the categories page.
 # For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category.
 # When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category.
@@ -10,7 +10,7 @@ class GroupsController < ApplicationController
     @total_price = @transaracts.map { |all_prices| all_prices[:amount] }.sum
   end
 
-  def new 
+  def new
     @new_category = Group.new
   end
 
@@ -19,7 +19,7 @@ class GroupsController < ApplicationController
     if @create_category.save
       redirect_to groups_path
     else
-      render :new 
+      render :new
     end
   end
 
