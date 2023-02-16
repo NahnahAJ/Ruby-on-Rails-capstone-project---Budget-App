@@ -1,0 +1,15 @@
+<h1> Create a new category</h1>
+
+<button><%=link_to "Back", groups_path %></button>
+<%= form_with model: @group, url: groups_path do |f| %>
+  <div>
+  <%= f.label :name %><br />
+  <%= f.text_field :name %>
+  </div>
+  <div>
+  <%= f.label :icon %><br />
+  <%= f.text_field :icon %>
+  </div>
+  <%= f.hidden_field :author_id, value: current_user.id %>
+  <%= f.submit :submit %><br />
+  <% end %>
