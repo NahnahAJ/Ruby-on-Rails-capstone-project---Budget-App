@@ -1,1 +1,9 @@
-<h1> Welcome to the groups index page</h1>
+<main>
+<h1> Welcome to the Categories Page</h1>
+<% @categories.each do |category| %>
+<h3><%=link_to category.name, group_transaracts_path(category.id)%></h3>
+<%= image_tag category.icon  %>
+<% end %>
+<p><%= @total_price %></><br><br>
+<button><%= link_to "Add new category", new_group_path %></button>
+</main>
