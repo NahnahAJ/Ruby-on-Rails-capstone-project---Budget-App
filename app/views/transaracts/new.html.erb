@@ -1,0 +1,12 @@
+<%= form_with model: @transaract, url: group_transaracts_path do |f|%> 
+  <div>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  </div>
+
+  <div>
+  <%= f.label :amount %>
+  <%= f.number_field :amount %>
+  </div>
+  <%= f.submit %>
+<% end %>
