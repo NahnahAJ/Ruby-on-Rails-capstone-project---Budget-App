@@ -4,7 +4,6 @@
 # When the user clicks on the "Back" button (<), the user navigates to the home page.
 class TransaractsController < ApplicationController
   def index
-    # @transaracts = Transaract.includes(:transaract_groups).where(id: params[:group_id]).order(created_at: :desc)
     @groups = Group.find_by(id: params[:group_id])
     @transaracts = TransaractGroup.includes(:transaract).where(group: @groups).order(created_at: :desc)
     @total_transactions = @transaracts.map { |transaction| transaction.transaract.amount }.sum
@@ -25,4 +24,3 @@ class TransaractsController < ApplicationController
     end
   end
 end
-
