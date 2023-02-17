@@ -5,9 +5,9 @@
 # There is a button "add a new category" at the bottom that brings the user to the page to create a new category.
 class GroupsController < ApplicationController
   def index
-    @categories = Group.includes(:transaract_groups, :transaracts)
-    @transaracts = Transaract.all
-    @total_price = @transaracts.map { |all_prices| all_prices[:amount] }.sum
+    @categories = Group.where(author: current_user)
+    @transaracts = Transaract.where(author: current_user)
+    @transaract_groups = TransaractGroup.all
   end
 
   def new
