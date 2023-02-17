@@ -1,9 +1,18 @@
-<main>
-<h1> Welcome to the Categories Page</h1>
+<main class="container-fluid main-container">
 <% @categories.each do |category| %>
-<h3><%=link_to category.name, group_transaracts_path(category.id)%></h3>
-<%= image_tag category.icon  %>
+  <div class="container-fluid catergory-card">
+  <%= image_tag category.icon  %>
+  <h3><%=link_to category.name, group_transaracts_path(category.id)%></h3>
+  <% total_price = 0 %>
+  <% @transaract_groups.each do |group| %>
+    <% if group.group_id == category.id %>
+    <% total_price += group.transaract.amount %> 
+    <% end %>
+    <% end %>
+  <p><%= total_price %></><br><br>
+  </div>
 <% end %>
-<p><%= @total_price %></><br><br>
-<button><%= link_to "Add new category", new_group_path %></button>
+<div class="btn_container">
+<%= link_to "Add new category", new_group_path, class:"btn_size" %>
+</div>
 </main>
