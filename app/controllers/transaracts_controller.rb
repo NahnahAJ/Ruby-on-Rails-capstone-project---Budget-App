@@ -1,7 +1,3 @@
-# For a given category, the list of transactions is presented, ordered by the most recent.
-# At the top of the page the user could see the total amount for the category (sum of all of the amounts of the transactions in that category).
-# There is a button "add a new transaction" at the bottom that brings the user to the page to create a new transaction.
-# When the user clicks on the "Back" button (<), the user navigates to the home page.
 class TransaractsController < ApplicationController
   def index
     @groups = Group.find_by(id: params[:group_id])
