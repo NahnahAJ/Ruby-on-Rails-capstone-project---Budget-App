@@ -1,4 +1,4 @@
-require "rails_helper"
+require 'rails_helper'
 
 RSpec.describe GroupsController, type: :request do
   describe 'groups index' do

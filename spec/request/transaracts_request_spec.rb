@@ -17,6 +17,5 @@ RSpec.describe TransaractsController, type: :request do
     it 'render index action' do
       expect(response).to render_template(:index)
     end
-
   end
 end

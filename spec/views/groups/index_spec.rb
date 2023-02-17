@@ -20,5 +20,4 @@ RSpec.describe 'Groups index view', type: :system do
     visit group_transaracts_path(1)
     expect(page).to have_content('Add Transaract')
   end
-
 end
