@@ -1,0 +1,20 @@
+<div class="container form_styles">
+<%= form_with model: @transaract, url: group_transaracts_path do |f|%> 
+  <div>
+  <%= f.label :name %><br />
+  <%= f.text_field :name %>
+  </div>
+
+  <div>
+  <%= f.label :amount %><br />
+  <%= f.number_field :amount %>
+  </div>
+  
+  <div> 
+  <%= f.label :category %><br />
+  <%= f.select(:group_id, @groups.map{|u| [u.name]}, {:include_blank => 'Choose a category', :disabled => 1}) %>
+  </div>
+  
+  <%= f.submit %>
+<% end %>
+</div>

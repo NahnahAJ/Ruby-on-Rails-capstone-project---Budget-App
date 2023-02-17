@@ -1,0 +1,64 @@
+main,
+section {
+  background-color: rgb(245, 244, 244);
+  padding: 1rem;
+}
+
+.catergory-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+.transaract-card {
+  margin: -1rem 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-family: 'proxima nova light', sans-serif;
+  font-size: small;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+img {
+  width: 6rem;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #5fb523;
+  padding: 1rem 0;
+}
+
+a.btn_size {
+  font-family: 'Proxima Nova light', sans-serif;
+  color: white;
+  background-color: #5fb523;
+  border-radius: 0.2rem;
+  padding: 1rem 5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+a.btn_size:hover {
+  background-color: white;
+  color: #5fb523;
+  transition: 0.5s, ease-in-out;
+}
+
+a.btn_size:active {
+  background-color: rgb(238, 237, 237);
+  color: #51991e;
+  transition: 0.5s, ease-in-out;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}

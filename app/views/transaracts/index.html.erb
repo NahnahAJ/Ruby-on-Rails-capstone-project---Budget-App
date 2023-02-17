@@ -1,1 +1,15 @@
-<h1> Welcome to the transaracts index page</h1>
+<section class="container-fluid main-container">
+<div class="container-fluid transaract-card">
+<h3>Total Amount: $<%= @total_transactions %></h3>
+</div>
+<% @transaracts.each do |transaract| %>
+  <div class="container-fluid catergory-card">
+  <%= image_tag "https://cdn-icons-png.flaticon.com/128/9080/9080379.png", size: 8*10 %>
+  <h3><%= transaract.transaract.name %></h3>
+  <p>$<%= transaract.transaract.amount %></p>
+  </div>
+  <% end %>
+  <div class="btn_container">
+  <%= link_to "Add Transaract", new_group_transaract_path, class:"btn_size" %>
+  </div>
+  </section>

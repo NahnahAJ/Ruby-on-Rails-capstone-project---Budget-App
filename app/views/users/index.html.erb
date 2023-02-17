@@ -1,5 +1,7 @@
-<h1> Welcome to the users index page</h1>
-
-<% if user_signed_in? %>
-<%= button_to "Sign Out", destroy_user_session_path, method: :delete %>
-<%end%>
+<div class="container mx-auto splash">
+<h1> TransaRacts </h1>
+<span class="container buttons">
+<%= link_to "Log In", new_user_session_path, class:"btn btn-primary" %>
+<%= link_to "Sign Up", new_user_registration_path, class:"btn btn-light" %>
+</span>
+</div>
