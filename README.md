@@ -66,7 +66,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- > -->
+> [Transaracts App Demo](https://budget-app-3fe3.onrender.com)
+
+## Video Presentation <a name="video-demo"></a>
+
+> [Video Presentation](https://www.loom.com/share/c1296e7552b2437d85caf0c9645e7c87)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
