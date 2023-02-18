@@ -48,7 +48,7 @@ input[type="submit"]:active {
   background-color: #39863d;
 }
 
-/* input#user_remember_me {
+input#user_remember_me {
   font-size: 12px;
   width: 151px;
 }
@@ -58,4 +58,4 @@ input[type="submit"]:active {
   color: rgb(150, 147, 147);
   margin: 0 auto;
   display: table;
-} */
+}
