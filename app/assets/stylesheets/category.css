@@ -52,7 +52,7 @@ a.btn_size:hover {
   color: #5fb523;
   transition: 0.5s, ease-in-out;
 }
-/* 
+
 a.btn_size:active {
   background-color: rgb(238, 237, 237);
   color: #51991e;
@@ -61,4 +61,4 @@ a.btn_size:active {
 
 .navbar-toggler {
   border: 1px solid white;
-} */
+}
