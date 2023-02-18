@@ -13,6 +13,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+    [Video Demo](#video-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -67,9 +68,9 @@
 
 > [Transaracts App Demo](https://budget-app-3fe3.onrender.com)
 
-## Video Presentation
+## Video Presentation <a name="video-demo"></a>
 
-> [Video Presentation]()
+> [Video Presentation](https://www.loom.com/share/c1296e7552b2437d85caf0c9645e7c87)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
