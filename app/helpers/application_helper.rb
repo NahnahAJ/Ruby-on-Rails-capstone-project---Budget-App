@@ -4,14 +4,18 @@ module ApplicationHelper
     case "#{controller_name}##{action_name}"
     when 'groups#index'
       'Categories'
-    when 'transactions#index'
-      'Transactions'
+    when 'transaracts#index'
+      'Transaracts'
     when 'devise/sessions#new'
       'Login'
     when 'devise/registrations#new'
       'Register'
+    when 'groups#new'
+      'details'
+    when 'transaracts#new'
+      'details'
     else
-      link_to image_tag('https://cdn-icons-png.flaticon.com/128/3114/3114883.png', class: 'back_button'), groups_path
+      ''
     end
   end
 end
