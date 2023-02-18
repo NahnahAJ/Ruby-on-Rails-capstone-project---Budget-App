@@ -11,6 +11,7 @@ section {
   margin-bottom: 1rem;
   background-color: white;
   padding: 1rem;
+  gap: 0.5rem;
 }
 
 .transaract-card {
@@ -75,4 +76,23 @@ a.btn_size:active {
 
 .transaracts_container {
   height: 66vh;
+}
+
+.catergory-card a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.name_date p {
+  color: grey;
+  font-size: 1rem;
+}
+
+.name_date {
+  width: 60%;
+}
+
+.catergory-card p {
+  font-weight: 700;
 }
