@@ -1,4 +1,6 @@
+<%= render partial: 'shared/navbar' %>
 <main class="container-fluid main-container">
+<div class="groups_container">
 <% @categories.each do |category| %>
   <div class="container-fluid catergory-card">
   <%= image_tag category.icon  %>
@@ -12,6 +14,7 @@
   <p><%= total_price %></><br><br>
   </div>
 <% end %>
+</div>
 <div class="btn_container">
 <%= link_to "Add new category", new_group_path, class:"btn_size" %>
 </div>
