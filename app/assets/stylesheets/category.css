@@ -2,6 +2,7 @@ main,
 section {
   background-color: rgb(245, 244, 244);
   padding: 1rem;
+
 }
 
 .catergory-card {
@@ -36,6 +37,12 @@ img {
   padding: 1rem 0;
 }
 
+button.navbar-toggler,
+.search {
+  border: none;
+  font-size: 2rem;
+}
+
 a.btn_size {
   font-family: 'Proxima Nova light', sans-serif;
   color: white;
@@ -61,4 +68,12 @@ a.btn_size:active {
 
 .navbar-toggler {
   border: 1px solid white;
+}
+
+.groups_container {
+  height: 75vh;
+}
+
+.transaracts_container {
+  height: 66vh;
 }
