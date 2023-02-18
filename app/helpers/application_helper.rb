@@ -10,9 +10,7 @@ module ApplicationHelper
       'Login'
     when 'devise/registrations#new'
       'Register'
-    when 'groups#new'
-      'details'
-    when 'transaracts#new'
+    when 'groups#new' && 'transaracts#new'
       'details'
     else
       ''
