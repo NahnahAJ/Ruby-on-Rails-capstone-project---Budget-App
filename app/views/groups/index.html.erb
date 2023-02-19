@@ -1,17 +1,25 @@
+<%= render partial: 'shared/navbar' %>
 <main class="container-fluid main-container">
+<div class="groups_container">
 <% @categories.each do |category| %>
   <div class="container-fluid catergory-card">
   <%= image_tag category.icon  %>
+  <div class= "name_date">
   <h3><%=link_to category.name, group_transaracts_path(category.id)%></h3>
+  <p>
+  <%= category.created_at.strftime("%B %d %Y") %>
+</p>
+</div>
   <% total_price = 0 %>
   <% @transaract_groups.each do |group| %>
     <% if group.group_id == category.id %>
     <% total_price += group.transaract.amount %> 
     <% end %>
     <% end %>
-  <p><%= total_price %></><br><br>
+  <p>$<%= total_price %></></p>
   </div>
 <% end %>
+</div>
 <div class="btn_container">
 <%= link_to "Add new category", new_group_path, class:"btn_size" %>
 </div>

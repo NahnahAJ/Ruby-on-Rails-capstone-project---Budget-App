@@ -1,0 +1,9 @@
+<nav class="navbar navbar-expand-lg bg-body-primary p-3" style="background-color: #3778c2;">
+<div class="container-fluid">
+<%= link_to groups_path do %>
+  <i class="lni lni-arrow-left text-light search"></i>
+<% end %>
+<h5 class="text-light"><%= nav_bar_content(params[:controller], params[:action])%></h5>
+<span class="text-light"></span>
+</div>
+</nav>  

@@ -11,6 +11,7 @@ section {
   margin-bottom: 1rem;
   background-color: white;
   padding: 1rem;
+  gap: 0.5rem;
 }
 
 .transaract-card {
@@ -34,6 +35,12 @@ img {
   width: 100%;
   background-color: #5fb523;
   padding: 1rem 0;
+}
+
+button.navbar-toggler,
+.search {
+  border: none;
+  font-size: 2rem;
 }
 
 a.btn_size {
@@ -61,4 +68,31 @@ a.btn_size:active {
 
 .navbar-toggler {
   border: 1px solid white;
+}
+
+.groups_container {
+  height: 75vh;
+}
+
+.transaracts_container {
+  height: 66vh;
+}
+
+.catergory-card a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.name_date p {
+  color: grey;
+  font-size: 1rem;
+}
+
+.name_date {
+  width: 60%;
+}
+
+.catergory-card p {
+  font-weight: 700;
 }
